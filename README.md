@@ -1,21 +1,14 @@
-# pwrestapi-client
+# ProcessWire RestApi Vue Login Example
 
-## Project setup
+This is an accompanying example for: https://github.com/thomasaull/RestApi
+
+## Set endpoint
+in `src/main.js` adjust the line to match your API endpoint:
+
+`axios.defaults.baseURL = '//yourhost.test/api/'`
+
+## Download and run
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
