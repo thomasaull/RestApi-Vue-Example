@@ -8,6 +8,7 @@ Vue.config.productionTip = false
 
 // axios api default url
 axios.defaults.baseURL = '//yourhost.test/api/'
+axios.defaults.withCredentials = true
 
 new Vue({
   router,
